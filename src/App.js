@@ -24,7 +24,7 @@ function App() {
             value={km} 
             onChange={handleChange} 
           />
-          <p className="result"><span className="km">{km} km</span> is <span className="miles">{convert(km)} miles</span> </p>
+          <p className="result"><span className="km">{km} km</span> is <span className="miles">{convert(km)} miles</span></p>
       </main>
     </div>
   );
